@@ -2,3 +2,48 @@
     margin: 0px;
     padding: 0px;
 }
+/* banner section */
+header{
+    background-color: #E554731A;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-text{
+    text-align: left;
+    padding-left: 150px;
+    padding-top: 80px;
+
+}
+.banner-greeting{
+    color: #272727;
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+.banner-para{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+.banner-btn{
+    background-color: #E55473;
+    border: none;
+    border-radius: 8px;
+    color: #FFFFFF;
+    padding: 20px 35px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 0px;
+    transition-duration: 0.5s;
+}
+.banner-btn:hover{
+    cursor: pointer;
+    background-color: #f1859d;
+}
+
+/* banner section complete */
+
