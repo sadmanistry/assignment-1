@@ -2,14 +2,11 @@
     margin: 0px;
     padding: 0px;
 }
-main{
-    display: block;
-}
 /* banner section */
 header{
     background-color: #E554731A;
     background-size: cover;
-    height: 100vh;
+    height: 95vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -107,7 +104,7 @@ header{
     border-radius: 8px;
     justify-content: space-around;
     text-align: center;
-    padding: 70px 0px 70px 0px;
+    padding: 60px 0px 60px 0px;
     margin-left: 200px;
     margin-right: 200px;
     margin-top: 128px;
@@ -133,7 +130,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 620px;
+    height: 520px;
     margin-top: 128px;
 }
 .offer-img{
@@ -224,20 +221,21 @@ header{
     margin-left: 200px;
     margin-right: 200px;
     margin-top: 100px;
-    padding: 90px;
+    margin-bottom: 100px;
+    padding: 60px 90px;
     text-align: center;
 }
 .contact-greeting{
     color: #272727;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 800;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 .contact-para{
     color: #27272799;
     font-size: 18px;
     font-weight: 400;
-    margin-bottom: 35px;
+    margin-bottom: 30px;
 }
 .form{
     position: relative;
@@ -263,4 +261,40 @@ input{
     padding: 0 16px;
     font-size: 14px;
     margin-left: 5px;
+    transition-duration: 0.5s;
+}
+.contact-btn:hover{
+    cursor: pointer;
+    background-color: #f1859d;
+}
+/* contant complete */
+
+/* footer section */
+.footer{
+
+    background-color: #111010;
+    text-align: center;
+    padding: 120px;
+}
+.footer-greeting{
+    font-size: 35px;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 15px;
+
+}
+.flr{
+    color: #E55473;
+}
+.footer-para{
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 25px;
+}
+.copyright{
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 12px;
+    font-weight: 400;
 }
