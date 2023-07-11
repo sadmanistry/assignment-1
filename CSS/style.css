@@ -130,4 +130,86 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 620px;
+    margin-top: 128px;
 }
+.offer-img{
+    padding-right: 150px;
+}
+
+.offer-text{
+    text-align: center;
+    padding-left: 150px;
+    
+}
+
+.offer-greeting{
+    color: #272727;
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    
+}
+
+.off{
+    color: #E55473;
+}
+
+.offer-para{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+
+.offer-btn{
+    background-color: #E55473;
+    border-radius: 8px;
+    border: none;
+    padding: 19px 35px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 500;
+    transition-duration: 0.5s;
+}
+.offer-btn:hover{
+    cursor: pointer;
+    background-color: #f1859d;
+}
+/* offer section complete */
+
+/* social media section */
+
+.social-media{
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 100px;
+}
+   
+.social-text{
+    text-align: center;
+}
+
+.insta{
+    color: #272727;
+    font-size: 40px;;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.insta-para{
+    color: #27272799;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 48px;
+}
+.social-photo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+/* social media section complete */
+
