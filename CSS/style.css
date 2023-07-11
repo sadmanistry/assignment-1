@@ -5,6 +5,7 @@
 /* banner section */
 header{
     background-color: #E554731A;
+    background-size: cover;
     height: 100vh;
     display: flex;
     justify-content: space-between;
@@ -94,6 +95,7 @@ header{
     line-height: 35px;
     text-decoration-line: underline;
 }
+
 /* support section */
 
 .support-info{
@@ -116,4 +118,16 @@ header{
     font-style: normal;
     font-weight: 600;
     line-height: 35px;
+}
+
+/* support section complete */
+
+/* offer section */
+
+.offer{
+    background-color: #E554730D;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
