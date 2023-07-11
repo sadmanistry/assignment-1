@@ -94,4 +94,26 @@ header{
     line-height: 35px;
     text-decoration-line: underline;
 }
+/* support section */
 
+.support-info{
+    display: flex;
+    background-color: #2727270D;
+    border-radius: 8px;
+    justify-content: space-around;
+    text-align: center;
+    padding: 70px 0px 70px 0px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 128px;
+    align-items: center;
+
+}
+.support-text{
+    color: #272727CC;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px;
+}
