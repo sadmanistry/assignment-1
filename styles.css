@@ -62,6 +62,7 @@ header > h2{
   height: 400px;
   width: 1000px;
   padding: 50px 0 0 130px;
+  margin-bottom: 130px;
 }
 .welcome > h1{
   color: #FFFFFF;
@@ -90,4 +91,27 @@ button:hover {
   background: rgba(204, 106, 106, 0.1);
 }
 
-/*  */
+/* adress section */
+.adress > p{
+  font-family: "Work Sans";
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+  margin-right: 180px;
+}
+.adress-design{
+  color: red;
+}
+.adress > button{
+  color: #FFFFFF;
+  background-color: red;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-family: "Work Sans";
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-left: 430px;
+  margin-top: 20px;
+}
