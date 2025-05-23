@@ -162,7 +162,7 @@ button:hover {
 /* sale section */
 .sale{
   justify-items: center;
-  margin-bottom: 60px;
+  margin-bottom: 150px;
 }
 .sale > h1{
   font-family: "Work Sans";
@@ -180,3 +180,54 @@ button:hover {
 .sale-title{
   color: red;
 }
+/* sundoni section */
+
+/* portfolio section */
+.products{
+  justify-content: space-between;
+  display: flex;
+  margin-bottom: 20px;
+}
+.portfolio > h2{
+  font-family: "Work Sans";
+  font-size: 35px;
+  margin: 0 0 5px 0;
+}
+.portfolio-title{
+  color: red;
+  font-family: "Work Sans";
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+/* newsletter section */
+.newsletter{
+  justify-items: center;
+  text-align: center;
+  background-color: rgb(240, 240, 227);
+  padding: 70px 0;
+}
+.newsletter > h2{
+  font-family: "Work Sans";
+  font-size: 30px;
+  margin: 15px 0 0 0;
+}
+.newsletter-input > input{
+  padding: 10px;
+  border: 1px solid rgb(201, 191, 212);
+  border-radius: 50px 0 0 50px;
+  font-size: 19px;
+  margin-left: 0;
+}
+.newsletter-input > button{
+  background-color: red;
+  color: white;
+  padding: 14px 19px;
+  border: none;
+  border-radius: 0 50px 50px 0;
+  font-size: 15px;
+  cursor: pointer;
+  margin-left: 0;
+}
+
+/* footer */
