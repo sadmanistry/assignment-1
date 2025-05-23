@@ -159,3 +159,24 @@ button:hover {
   font-weight: 600;
   margin-bottom: 0;
 }
+/* sale section */
+.sale{
+  justify-items: center;
+  margin-bottom: 60px;
+}
+.sale > h1{
+  font-family: "Work Sans";
+  font-size: 45px;  
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 35px;
+}
+.sale-para{
+  color: #070211;
+  font-family: "Work Sans";
+  font-size: 15px;
+  text-align: center;
+}
+.sale-title{
+  color: red;
+}
